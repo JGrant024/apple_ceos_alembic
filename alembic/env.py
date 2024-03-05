@@ -3,7 +3,8 @@ from alembic import context
 from models import Base
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-from models import CEO, CeoSchema, Base
+from models.CEO import CEO, CeoSchema
+from models.Base import Base
 from config import settings 
 
 
